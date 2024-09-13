@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ReunionParentProf" version="4">
+  <OBJECT>
+    <ID name="ReunionParentProf" mc="Standard.Project" uid="d26254c9-2bdc-4591-8831-c6d14bd0e57e"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[ReunionParentProf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="reunionparentprof" mc="Standard.Package" uid="df488f8a-473f-4cd0-918b-06a913eb64da"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="ReunionParentProf" mc="Infrastructure.DiagramSet" uid="ec2be1dc-5ac3-49a2-94af-03e288ff1ba4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

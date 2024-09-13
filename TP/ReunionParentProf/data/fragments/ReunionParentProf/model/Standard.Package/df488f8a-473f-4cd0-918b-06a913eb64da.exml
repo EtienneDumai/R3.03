@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reunionparentprof" version="4">
+  <OBJECT>
+    <ID name="reunionparentprof" mc="Standard.Package" uid="df488f8a-473f-4cd0-918b-06a913eb64da"/>
+    <PID name="ReunionParentProf" mc="Standard.Project" uid="d26254c9-2bdc-4591-8831-c6d14bd0e57e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reunionparentprof]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Responsable administratif" mc="Standard.Actor" uid="00a96de3-4249-4ad3-a71b-a66dc505b894"/>
+        <COMPID name="Planifier une réunion" mc="Standard.UseCase" uid="12f9a4d8-c33a-489e-b373-6d24999f7d96"/>
+        <COMPID name="Enseignant" mc="Standard.Actor" uid="f268baf9-28a6-48ab-b67d-2deda30b950a"/>
+        <COMPID name="Confirmer la présence" mc="Standard.UseCase" uid="7857c7f7-9167-4fee-ac07-d5f5b0a62986"/>
+        <COMPID name="Parent" mc="Standard.Actor" uid="bd81636e-2e2d-4eca-bf34-36ebd0365fdc"/>
+        <COMPID name="Indiquer l'enseignant" mc="Standard.UseCase" uid="35ba050c-14ae-4fd0-a780-a4d780e88b36"/>
+        <COMPID name="Modifier une réunion" mc="Standard.UseCase" uid="2781619f-fd42-4211-add8-7d2f5fa00c3a"/>
+        <COMPID name="Indiquer l'arrivée / le départ" mc="Standard.UseCase" uid="4fe70380-c6ad-4a2a-86ca-1fdf0d83cd1a"/>
+        <COMPID name="Gérer les inscription" mc="Standard.UseCase" uid="af2501c1-6316-4984-9b4e-f942f93210f1"/>
+        <COMPID name="Module d'inscription" mc="Standard.Actor" uid="364c2f06-7f0f-40c0-a6b9-047ae27893c4"/>
+        <COMPID name="Logiciel de scolarité" mc="Standard.Actor" uid="f8d8c0ca-666f-4ed9-8141-0e3098405a32"/>
+        <COMPID name="Indiquer le debut et la fin de la reunion" mc="Standard.UseCase" uid="8198cc1b-c4ca-4156-83bf-0f03388374d9"/>
+        <COMPID name="Annuler une réunion" mc="Standard.UseCase" uid="a7e02f42-f690-4015-9281-d59f8da612c1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation reunionparentprof" mc="Standard.UseCaseDiagram" uid="3a81fe2e-bfb2-4c8f-b702-2d8ed91717e3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
