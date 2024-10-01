@@ -13,27 +13,39 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="dc5b1bbf-6011-4a62-b7de-b879aad91210"/>
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="1823a8b2-feef-43aa-a659-ebbfff082336"/>
+      </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Responsable administratif" mc="Standard.Actor" uid="00a96de3-4249-4ad3-a71b-a66dc505b894"/>
-        <COMPID name="Enseignant" mc="Standard.Actor" uid="f268baf9-28a6-48ab-b67d-2deda30b950a"/>
-        <COMPID name="Parent" mc="Standard.Actor" uid="bd81636e-2e2d-4eca-bf34-36ebd0365fdc"/>
-        <COMPID name="Module d'inscription" mc="Standard.Actor" uid="364c2f06-7f0f-40c0-a6b9-047ae27893c4"/>
-        <COMPID name="Logiciel de scolarité" mc="Standard.Actor" uid="f8d8c0ca-666f-4ed9-8141-0e3098405a32"/>
         <COMPID name="Utilisateur " mc="Standard.Actor" uid="b4117457-96ee-4e09-86f8-64090860a234"/>
         <COMPID name="utiliser le site" mc="Standard.UseCase" uid="6d93e549-1c81-4a31-b0ec-f82ebefa72d1"/>
         <COMPID name="Logiciel de scolarité" mc="Standard.Actor" uid="a9a3d2f3-68e9-4258-aec3-43e9b87e79c9"/>
         <COMPID name="Module d'inscription" mc="Standard.Actor" uid="3099cab3-7a68-4ed3-b325-eca8764e6f58"/>
-        <COMPID name="Participant" mc="Standard.Actor" uid="fd508aab-c475-4ce3-8d6f-4f49c25edd34"/>
-        <COMPID name="Planifier une réunion" mc="Standard.UseCase" uid="df9bc164-3d61-411e-8b78-0061a2be1283"/>
-        <COMPID name="Modifier une réunion" mc="Standard.UseCase" uid="e086bebb-ad5b-499e-8f5b-a71a0ebefdb1"/>
-        <COMPID name="Annuler une réunion" mc="Standard.UseCase" uid="ffe81b5c-1d47-4ae1-8fdb-7ba8676c308b"/>
-        <COMPID name="Confirmer sa présence" mc="Standard.UseCase" uid="831c3b0b-e21d-48ce-b1b2-9d54efa687c4"/>
-        <COMPID name="Indiquer l'arrivée" mc="Standard.UseCase" uid="758951ea-3ffb-42a4-a4d6-39789402f098"/>
-        <COMPID name="Indiquer le départ" mc="Standard.UseCase" uid="90d5d58f-688c-4603-92f5-d79fab6f830d"/>
-        <COMPID name="Indiquer le debut de l'entretien" mc="Standard.UseCase" uid="a539f057-d6b6-4156-a331-b5feb8daa4d0"/>
-        <COMPID name="Indiquer la fin de l'entretien" mc="Standard.UseCase" uid="ac49384c-4e2b-41c2-8d2f-76de93a5f35b"/>
-        <COMPID name="Indiquer le professeur qu'il veut rencontrer " mc="Standard.UseCase" uid="4706bf10-3989-4e02-ac44-d0f78c8395d8"/>
-        <COMPID name="Envoyer une invitation par message" mc="Standard.UseCase" uid="ee233c17-9f88-459b-8330-99bb5a8149e6"/>
+        <COMPID name="Participant" mc="Standard.Actor" uid="3d928433-d584-4cf7-b200-41d8464d369f"/>
+        <COMPID name="Responsable Administratif" mc="Standard.Actor" uid="18cf8a04-4d92-4873-975d-563b95734967"/>
+        <COMPID name="Participer a une reunion" mc="Standard.UseCase" uid="eb171774-122c-4c7a-95e3-50d8c3768e46"/>
+        <COMPID name="Gerer les reunions parents prof" mc="Standard.UseCase" uid="e6f5eb43-6753-416c-87ac-5f5733fbdaa7"/>
+        <COMPID name="Module d'inscription" mc="Standard.Actor" uid="2455090e-65bf-47c1-a852-dd5634e4583f"/>
+        <COMPID name="Logiciel de scolarité" mc="Standard.Actor" uid="a8467edb-4880-40c1-86d5-8b98822fc54a"/>
+        <COMPID name="Participant" mc="Standard.Actor" uid="b7a22bf3-af0c-4d38-b21d-0bae1890f4a4"/>
+        <COMPID name="Parent" mc="Standard.Actor" uid="faf106c3-a02d-4349-aba0-c5d1ca67e235"/>
+        <COMPID name="Responsable administratif" mc="Standard.Actor" uid="cab1a29f-60f5-4a39-93ed-dc9666953f98"/>
+        <COMPID name="Logiciel de scolarité" mc="Standard.Actor" uid="1b88579a-b090-4d96-b316-daba589f6a40"/>
+        <COMPID name="Module d'inscription" mc="Standard.Actor" uid="6d8083ef-3c2f-45fc-ada5-ebacaf1bd4e3"/>
+        <COMPID name="Gerer les reunions" mc="Standard.UseCase" uid="e3970990-d87b-4727-b013-b87e7e8684f5"/>
+        <COMPID name="Choisir l'enseignant" mc="Standard.UseCase" uid="14104e83-c6bb-409a-bc7e-ab84a782c4d3"/>
+        <COMPID name="Participer à une réunion" mc="Standard.UseCase" uid="19321ba0-9156-46aa-a49e-3f73b80acb0f"/>
+        <COMPID name="S'identifier" mc="Standard.UseCase" uid="eda2e007-b2c3-4449-95e2-ec1b5ac20186"/>
+        <COMPID name="Participant" mc="Standard.Actor" uid="ff116160-f9f8-40b6-bbbc-99ef4da8b75c"/>
+        <COMPID name="Confirmer sa presence" mc="Standard.UseCase" uid="eceed23c-7fb0-4d27-92fc-8b8723d7e186"/>
+        <COMPID name="Indiquer son arrivée / départ" mc="Standard.UseCase" uid="60ea6d06-1e70-4af2-ba6f-5e9a08d83aca"/>
+        <COMPID name="Indiquer le debut / la fin de l'entretien" mc="Standard.UseCase" uid="7cefb1e6-c0eb-4a08-a07c-1eedb99c4d8b"/>
+        <COMPID name="Plannifier une reunion" mc="Standard.UseCase" uid="9f6a0c75-3bec-410e-853d-8f1e4bc0b0d2"/>
+        <COMPID name="Modifier une reunion" mc="Standard.UseCase" uid="fa6d31f9-f0ef-4f43-ac8d-0407a533c096"/>
+        <COMPID name="Annuler une reunion" mc="Standard.UseCase" uid="0a26a56d-6025-4a36-baa6-8f421f283b3f"/>
+        <COMPID name="responsable administratif" mc="Standard.Actor" uid="7924aa1f-c96e-4479-a288-305f32e28ecb"/>
+        <COMPID name="Module de scolarité" mc="Standard.Actor" uid="b98336f6-371d-4f21-9169-3ace8682a3ba"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de cas d'utilisation reunionparentprof" mc="Standard.UseCaseDiagram" uid="3a81fe2e-bfb2-4c8f-b702-2d8ed91717e3"/>

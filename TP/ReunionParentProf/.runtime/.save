@@ -1,3 +1,5 @@
-#Wed Sep 25 15:08:53 CEST 2024
+#Wed Oct 02 00:06:20 CEST 2024
 org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de cas d'utilisation reunionparentprof' {3a81fe2e-bfb2-4c8f-b702-2d8ed91717e3} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Diagramme d'\u00E9tat State Machine' {6f6c678a-69cf-4061-9acb-483b3d07efbe} Standard.StateMachineDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams1='Diagramme de cas d'utilisation g\u00E9n\u00E9raliste' {b648da33-d72f-4203-abec-11eea90a55d0} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='DiagrammedeSequenceParentProf' {07dac45a-c58d-4fd4-abf7-474fba42f055} Standard.SequenceDiagram

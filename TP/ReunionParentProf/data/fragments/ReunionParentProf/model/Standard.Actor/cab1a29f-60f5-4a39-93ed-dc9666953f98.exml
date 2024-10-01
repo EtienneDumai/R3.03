@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Logiciel de scolarité" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Responsable administratif" version="4">
   <OBJECT>
-    <ID name="Logiciel de scolarité" mc="Standard.Actor" uid="f8d8c0ca-666f-4ed9-8141-0e3098405a32"/>
+    <ID name="Responsable administratif" mc="Standard.Actor" uid="cab1a29f-60f5-4a39-93ed-dc9666953f98"/>
     <PID name="reunionparentprof" mc="Standard.Package" uid="df488f8a-473f-4cd0-918b-06a913eb64da"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,13 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Logiciel de scolarité]]></ATT>
+      <ATT name="Name"><![CDATA[Responsable administratif]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="839a83a5-2e85-4811-8617-ed7f08472f58"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="1e327668-94c1-4d92-96c6-68c34f35029f"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -33,11 +33,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Envoyer une invitation par message" mc="Standard.UseCase" uid="ee233c17-9f88-459b-8330-99bb5a8149e6"/>
+              <ID name="Gerer les reunions" mc="Standard.UseCase" uid="e3970990-d87b-4727-b013-b87e7e8684f5"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="4816e61f-33e2-4807-8943-b5e8939aecca"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="e10feaff-e475-4694-a572-c06c1c2408d4"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -55,11 +55,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="839a83a5-2e85-4811-8617-ed7f08472f58"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="1e327668-94c1-4d92-96c6-68c34f35029f"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="6cff4143-7c2e-4899-adae-d044cea7df25"/>
+                      <ID name="" mc="Standard.Association" uid="9d6cce9f-8054-4b41-9c74-63d99dd4c20c"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -71,14 +71,11 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="6cff4143-7c2e-4899-adae-d044cea7df25"/>
+              <COMPID name="" mc="Standard.Association" uid="9d6cce9f-8054-4b41-9c74-63d99dd4c20c"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <LINK relation="Extension">
-        <FOREIGNID name="secondary" mc="Infrastructure.Stereotype" uid="01ec1ac4-0000-2f04-0000-000000000000"/>
-      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
